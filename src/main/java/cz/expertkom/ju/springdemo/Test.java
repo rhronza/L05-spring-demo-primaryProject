@@ -7,9 +7,9 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cz.expertkom.ju.springdemo.entity.User;
+import com.example.springdemorhr.entity.User;
+
 import cz.expertkom.ju.springdemo.interfaces.UserService;
-import cz.expertkom.ju.springdemo.repository.Testovaci;
 
 @Service
 public class Test {
@@ -19,17 +19,14 @@ public class Test {
 	@Autowired
 	private UserService userService;
 	
-	@Autowired
-	Testovaci tst;
-	
+
 	@PostConstruct
 	public void test() {
 		
-		User user = userService.getUser("karel");
+		User user = userService.getUser("rudolf555");
 		
 		logger.info("\n\n******************** \nuser: " + user+"\n*****************************");
 		
-		tst.test();
 	}
 	
 }

@@ -8,9 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan({
 	"cz.expertkom.ju.springdemo","cz.expertkom.ju.springdemo.entity",
-	"cz.expertkom.ju.springdemo.interfaces",/*"cz.expertkom.ju.springdemo.repository",*/
-	"cz.expertkom.ju.springdemo.service", 
-	/*"com.example.springdemorhr",*/ 
+	"cz.expertkom.ju.springdemo.interfaces","cz.expertkom.ju.springdemo.service", 
+	"com.example.springdemorhr.entity",	"com.example.springdemorhr.interfaces",
 	"com.example.springdemorhr.repository"
 })
 

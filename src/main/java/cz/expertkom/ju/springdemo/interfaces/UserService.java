@@ -1,6 +1,6 @@
 package cz.expertkom.ju.springdemo.interfaces;
 
-import cz.expertkom.ju.springdemo.entity.User;
+import com.example.springdemorhr.entity.User;
 
 public interface UserService {
 
