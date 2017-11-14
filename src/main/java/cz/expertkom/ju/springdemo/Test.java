@@ -23,7 +23,7 @@ public class Test {
 	@PostConstruct
 	public void test() {
 		
-		User user = userService.getUser("rudolf555");
+		User user = userService.getUser("rudolf");
 		
 		logger.info("\n\n******************** \nuser: " + user+"\n*****************************");
 		
